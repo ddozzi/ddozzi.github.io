@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Space Client • Home</title>
+        <link rel="icon" href="spaceclient/images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="spaceclient/assets/css/main.css" />
+        <link rel="stylesheet" href="spaceclient/assets/css/faq.css"/>
+		<noscript><link rel="stylesheet" href="spaceclient/assets/css/noscript.css" /></noscript>
+	</head>
+
+    <script>
+        function getOS() {var userAgent = window.navigator.userAgent,platform = window.navigator.platform,macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],os = null;if (macosPlatforms.indexOf(platform) !== -1) {os = 'Mac';} else if (windowsPlatforms.indexOf(platform) !== -1) {os = 'Windows';} else if (!os && /Linux/.test(platform)) {os = 'Linux ';}document.getElementById('os').innerHTML = os;return os;}
+    </script>
+
+	<body class="is-preload" onload="getOS()">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Space Client</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#features">Features</a></li>
+								<li><a href="#faq">FAQ</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"> <img src="spaceclient/images/logo.png" alt="" width="120" height="120"> </div>
+							<h2>Space Client</h2>
+							<p>A Simple and clean Minecraft modpack for 1.8.9</p>
+                            <a class="button icon solid fa-download" href="#faq"> Download for <span id="os"></span></a>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+                    
+						<!-- Four -->
+                        <div id="features"></div>
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Features</h2>
+									<p>Space Client comes with all the features you would find in other clients, plus a few unique ones.</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="spaceclient/images/spotify.png" alt="" /></a>
+											<h3 class="major">Spotify Integration</h3>
+											<p>Lets you see what song you're playing currently, in game. No song controls available yet.</p>
+										
+										</article>
+										<article>
+											<a href="#" class="image"><img src="spaceclient/images/mainmenu.png" alt="" /></a>
+											<h3 class="major">Custom Main Menu</h3>
+											<p>A pretty clean main menu that lets you change your mod settings without going into a world.</p>
+											
+										</article>
+										<article>
+											<a href="#" class="image"><img src="spaceclient/images/cosmetics.png" alt="" /></a>
+											<h3 class="major">Free Cosmetics</h3>
+											<p>All cosmetics on Space Client are free and customizable.</p>
+											
+										</article>
+										<article>
+											<a href="#" class="image"><img src="spaceclient/images/modmenu.png" alt="" /></a>
+											<h3 class="major">Mod Menu</h3>
+											<p>A simple to use mod menu to toggle your favorite mods on and off.</p>
+											
+										</article>
+									</section>
+									
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner" id="faq">
+							<h2 class="major">FAQ</h2>
+                            <section class="faq-section">
+                                <div class="container">
+                                  <div class="row">
+
+                                    <div class="col-md-6 offset-md-3">
+                
+                                        <div class="faq-title text-center pb-3">
+                                        
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 offset-md-3">
+                                        <div class="faq" id="accordion">
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-1">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                            <span class="badge"></span>Why doesn't the download button work?
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>Currently the client is in beta, meaning it won't be publicly available until later.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-2">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                            <span class="badge"></span> What mods can I use?
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>Any of the mods that come with the client, are perfectly fine.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-3">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                            <span class="badge"></span>Does the client have a discord?
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>Yes! We have a discord, you can join <a href="https://discord.gg/2RCFxknYqs">here!</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header" id="faqHeading-4">
+                                                    <div class="mb-0">
+                                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                            <span class="badge"></span> When will it be availble?
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                    <div class="card-body">
+                                                        <p>I wouldn't know exactly when, but i'd say in around ~1-2 months.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </section>
+                
+                                
+							<ul class="copyright">
+								<li>&copy; DDOZZI 2020 - 2021.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="spaceclient/assets/js/jquery.min.js"></script>
+			<script src="spaceclient/assets/js/jquery.scrollex.min.js"></script>
+			<script src="spaceclient/assets/js/browser.min.js"></script>
+			<script src="spaceclient/assets/js/breakpoints.min.js"></script>
+			<script src="spaceclient/assets/js/util.js"></script>
+			<script src="spaceclient/assets/js/main.js"></script>
+            <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+	</body>
+</html>
