@@ -1,0 +1,67 @@
+<!-- TODO -->
+<!-- - Make live-updating version -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>School Daily</title>
+</head>
+<body>
+
+    <div class = "container"> 
+
+        <div class="content block day">
+
+            <div class="text center padtop high">Today is</div>
+            <div class="text center letter" id="time"></div>
+            <div class="text center">day</div>
+
+        </div>
+        
+        <div class="content block endOfSchool">
+
+            <div class="text left padtop vigh leftvigh semibold" id="days"></div>
+            <div class="text left padtop leftvigh" id="daysleft"></div>
+
+        </div>
+    
+        <div class="content block break">
+
+            <div class="text left padtop vigh leftvigh semibold">Next Break: </div>
+            <div class="text left padtop leftvigh" id="break"></div>
+
+        </div>
+    
+        <div class="content block bus">
+
+            <div class="text center yenter semibold" style="position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);">
+                
+                Coming soon!
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">&copy; 2022 DDOZZI. All rights reserved.</div>
+    
+    <script type="text/javascript" src="/js/day.js"></script>
+    <script type="text/javascript" src="/js/date.js"></script>
+    <script type="text/javascript" src="/js/break.js"></script>
+    
+</body>
+
+</html>

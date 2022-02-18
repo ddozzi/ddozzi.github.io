@@ -1,0 +1,151 @@
+/* i honestly have no fucking idea how to program in css */
+/* im literally just typing random shit hoping it works */
+/* someone help me please */
+
+body {
+    background-color: #3965FF;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1.5vh;
+  }
+
+
+
+.container {
+    font-family : "Montserrat";
+}
+
+.block {
+    background: rgba(196, 196, 196, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+
+    transform: translate(-50%, 0);
+}
+
+    .day {
+        position: absolute;
+
+        width: 85vw;
+        height: 18vh;
+        
+        left: 50%;
+        top: 20vh;
+
+        font-weight : 400;
+        font-size: 2.5vh;
+        
+        
+    }
+
+    .endOfSchool{
+        position: relative;
+
+        width: 85vw;
+        height: 12vh;
+
+        left: 50%;
+        top: 40vh;
+
+        font-weight : 400;
+        font-size: 2.1vh;
+    }
+
+    .break{
+        position: relative;
+
+        width: 85vw;
+        height: 12vh;
+
+        left: 50%;
+        top: 43vh;
+
+        font-weight : 400;
+        font-size: 2.1vh;
+    }
+
+    .bus {
+        position: relative;
+
+        width: 85vw;
+        height: 18vh;
+        
+        left: 50%;
+        top: 46vh;
+        
+        font-weight : 400;
+        font-size: 2.5vh;
+
+        
+    }
+
+.text {
+    font-family : "Montserrat";
+    
+}
+    .semibold {
+        font-weight : 600;
+    }
+
+    .thin {
+        font-weight : 300;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .padtop {
+        padding-top: 1vh;
+    }
+        .low {
+            padding-top: 1.5vh;
+        }
+
+        .mid {
+            padding-top: 2vh;
+        }
+
+        .high {
+            padding-top: 2.5vh;
+        }
+
+        .vigh {
+            padding-top: 3vh;
+        }
+
+        .leftlow {
+            padding-left: 1.5vw;
+        }
+        
+        .leftmid {
+            padding-left: 3vw;
+        }
+
+        .lefthigh {
+            padding-left: 4.5vw;
+        }
+        
+        .leftvigh {
+            padding-left: 6vw;
+        }
+        
+
+    .letter {
+        font-size: 5vh;
+        font-weight: 600;
+    }
